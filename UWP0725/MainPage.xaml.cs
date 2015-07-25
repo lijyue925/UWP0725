@@ -26,5 +26,10 @@ namespace UWP0725
         {
             this.InitializeComponent();
         }
+
+        private void CitiesSkyline_Button_OnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

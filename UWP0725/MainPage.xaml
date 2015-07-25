@@ -56,8 +56,14 @@
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
-            <TextBlock Text="測試自動換行" FontSize="30" TextWrapping="Wrap" Grid.Row="0" Grid.Column="0"></TextBlock>
-            <TextBlock Text="測試自動換行" FontSize="30" TextTrimming="CharacterEllipsis"  Grid.Row="1" Grid.Column="0"></TextBlock>
+            <TextBlock Text="測試自動換行(Warp)" FontSize="30" TextWrapping="Wrap" Grid.Row="0" Grid.Column="0"></TextBlock>
+            <TextBlock Text="測試自動換行(Trim)" FontSize="30" TextTrimming="CharacterEllipsis"  Grid.Row="1" Grid.Column="0"></TextBlock>
+            <Button Content="Button" Grid.Row="0" Grid.Column="1" Width="200"></Button>
+            <Button Content="Cities: Skyline" Grid.Row="1" Grid.Column="1" Width="200" Height="100" Foreground="WhiteSmoke" FontSize="25" FontWeight="Bold" Click="CitiesSkyline_Button_OnClick">
+                <Button.Background>
+                    <ImageBrush ImageSource="Assets/0.png" Stretch="Uniform"></ImageBrush>
+                </Button.Background>
+            </Button>
         </Grid>
     </Grid>
 </Page>
