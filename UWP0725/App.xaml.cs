@@ -52,7 +52,8 @@ namespace UWP0725
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                //取消顯示上面的Frame Rate
+                this.DebugSettings.EnableFrameRateCounter = false;
             }
 #endif
 
