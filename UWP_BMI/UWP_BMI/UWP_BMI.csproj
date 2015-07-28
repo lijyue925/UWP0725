@@ -4,20 +4,20 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{BEE65048-65CA-4BA2-8B4A-CD02460FC39E}</ProjectGuid>
+    <ProjectGuid>{6E4300F2-DBB2-45F3-81F2-C39B7BD95605}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UWP0725</RootNamespace>
-    <AssemblyName>UWP0725</AssemblyName>
+    <RootNamespace>UWP_BMI</RootNamespace>
+    <AssemblyName>UWP_BMI</AssemblyName>
     <DefaultLanguage>zh-TW</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10158.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.10158.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.10069.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10069.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>UWP0725_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>UWP_BMI_TemporaryKey.pfx</PackageCertificateKeyFile>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -105,10 +105,9 @@
     </AppxManifest>
     <None Include="ApplicationInsights.config" />
     <None Include="packages.config" />
-    <None Include="UWP0725_TemporaryKey.pfx" />
+    <None Include="UWP_BMI_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\0.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
